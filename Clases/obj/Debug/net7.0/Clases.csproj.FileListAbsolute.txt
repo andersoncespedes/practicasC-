@@ -1,0 +1,15 @@
+/home/arteN01-043/Desktop/practicaC#/Clases/bin/Debug/net7.0/Clases
+/home/arteN01-043/Desktop/practicaC#/Clases/bin/Debug/net7.0/Clases.deps.json
+/home/arteN01-043/Desktop/practicaC#/Clases/bin/Debug/net7.0/Clases.runtimeconfig.json
+/home/arteN01-043/Desktop/practicaC#/Clases/bin/Debug/net7.0/Clases.dll
+/home/arteN01-043/Desktop/practicaC#/Clases/bin/Debug/net7.0/Clases.pdb
+/home/arteN01-043/Desktop/practicaC#/Clases/obj/Debug/net7.0/Clases.csproj.AssemblyReference.cache
+/home/arteN01-043/Desktop/practicaC#/Clases/obj/Debug/net7.0/Clases.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-043/Desktop/practicaC#/Clases/obj/Debug/net7.0/Clases.AssemblyInfoInputs.cache
+/home/arteN01-043/Desktop/practicaC#/Clases/obj/Debug/net7.0/Clases.AssemblyInfo.cs
+/home/arteN01-043/Desktop/practicaC#/Clases/obj/Debug/net7.0/Clases.csproj.CoreCompileInputs.cache
+/home/arteN01-043/Desktop/practicaC#/Clases/obj/Debug/net7.0/Clases.dll
+/home/arteN01-043/Desktop/practicaC#/Clases/obj/Debug/net7.0/refint/Clases.dll
+/home/arteN01-043/Desktop/practicaC#/Clases/obj/Debug/net7.0/Clases.pdb
+/home/arteN01-043/Desktop/practicaC#/Clases/obj/Debug/net7.0/Clases.genruntimeconfig.cache
+/home/arteN01-043/Desktop/practicaC#/Clases/obj/Debug/net7.0/ref/Clases.dll
