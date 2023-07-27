@@ -1,4 +1,4 @@
-namespace Jugar{
+namespace Pasar{
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -37,6 +37,9 @@ namespace Jugar{
         }
         public override void Stack (){
             this.list = new List<int>() {1,2,3,4};
+        }
+        public int[] filtro(){
+            return (from x in this.list where x % 2 == 0 select x).ToArray();
         }
     }
     public class Juegos:Juguete{

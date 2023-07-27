@@ -1,0 +1,15 @@
+/home/arteN01-043/Desktop/practicaC#/productos/bin/Debug/net7.0/productos
+/home/arteN01-043/Desktop/practicaC#/productos/bin/Debug/net7.0/productos.deps.json
+/home/arteN01-043/Desktop/practicaC#/productos/bin/Debug/net7.0/productos.runtimeconfig.json
+/home/arteN01-043/Desktop/practicaC#/productos/bin/Debug/net7.0/productos.dll
+/home/arteN01-043/Desktop/practicaC#/productos/bin/Debug/net7.0/productos.pdb
+/home/arteN01-043/Desktop/practicaC#/productos/obj/Debug/net7.0/productos.csproj.AssemblyReference.cache
+/home/arteN01-043/Desktop/practicaC#/productos/obj/Debug/net7.0/productos.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-043/Desktop/practicaC#/productos/obj/Debug/net7.0/productos.AssemblyInfoInputs.cache
+/home/arteN01-043/Desktop/practicaC#/productos/obj/Debug/net7.0/productos.AssemblyInfo.cs
+/home/arteN01-043/Desktop/practicaC#/productos/obj/Debug/net7.0/productos.csproj.CoreCompileInputs.cache
+/home/arteN01-043/Desktop/practicaC#/productos/obj/Debug/net7.0/productos.dll
+/home/arteN01-043/Desktop/practicaC#/productos/obj/Debug/net7.0/refint/productos.dll
+/home/arteN01-043/Desktop/practicaC#/productos/obj/Debug/net7.0/productos.pdb
+/home/arteN01-043/Desktop/practicaC#/productos/obj/Debug/net7.0/productos.genruntimeconfig.cache
+/home/arteN01-043/Desktop/practicaC#/productos/obj/Debug/net7.0/ref/productos.dll

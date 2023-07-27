@@ -1,7 +1,7 @@
 ﻿    using System;
     using System.Collections.Generic;
     using System.Linq;
-    using Jugar;
+    using Pasar;
 
 namespace Clases{
     public class Edificio{
@@ -32,6 +32,8 @@ namespace Clases{
         }
     }
     class Programa{
+        public static Jugar juego = new Jugar(new List<int>() {1,2,3,4,5,6,7,8,9,10});
+        public static int[] filtro => juego.filtro();
         public static void Main(){
            Edificio edificio = new();
            edificio.aumentarApts(12);
@@ -40,16 +42,17 @@ namespace Clases{
            IEnumerable<string> arrs = from i in arr where i.Length > 0 orderby i.Length descending select i;
            IEnumerable<Nombres> xx = from a in nomb where a.nombre.Contains("a") select a;
            Nombres[] arrsx = nomb.Where(x => ((byte)x.edad) > 12 ).ToArray();
-           var anon = new {a = 1, b = 2, c =3};
+           var anon = new {a = 1, b = 2, c =3,  x = "asd"};
+           foreach(int i in filtro){
+            Console.WriteLine(i);
+           }
            foreach(Nombres n in xx){
             Console.WriteLine($"{n.nombre:T} {n.edad} {n.peso:E}");
            }
            foreach(Nombres a in arrsx){
             Console.WriteLine(a.nombre + " ");
            }
-           foreach(string X in arrs){
-            Console.WriteLine(X + " ");
-           }
+ 
            Console.WriteLine(anon.c);
         }
     }

@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/arteN01-043/Desktop/practicaC#/clases2/clases2.csproj": {}
+  },
+  "projects": {
+    "/home/arteN01-043/Desktop/practicaC#/clases2/clases2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/arteN01-043/Desktop/practicaC#/clases2/clases2.csproj",
+        "projectName": "clases2",
+        "projectPath": "/home/arteN01-043/Desktop/practicaC#/clases2/clases2.csproj",
+        "packagesPath": "/home/arteN01-043/.nuget/packages/",
+        "outputPath": "/home/arteN01-043/Desktop/practicaC#/clases2/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/arteN01-043/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
