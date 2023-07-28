@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/arteN01-043/.nuget/packages/": {}
+    "C:\\Users\\Anderson Cespedes\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/arteN01-043/Desktop/practicaC#/productos/productos.csproj",
+      "projectUniqueName": "C:\\Users\\Anderson Cespedes\\Documents\\c#\\practicasC-\\productos\\productos.csproj",
       "projectName": "productos",
-      "projectPath": "/home/arteN01-043/Desktop/practicaC#/productos/productos.csproj",
-      "packagesPath": "/home/arteN01-043/.nuget/packages/",
-      "outputPath": "/home/arteN01-043/Desktop/practicaC#/productos/obj/",
+      "projectPath": "C:\\Users\\Anderson Cespedes\\Documents\\c#\\practicasC-\\productos\\productos.csproj",
+      "packagesPath": "C:\\Users\\Anderson Cespedes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anderson Cespedes\\Documents\\c#\\practicasC-\\productos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/arteN01-043/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Anderson Cespedes\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

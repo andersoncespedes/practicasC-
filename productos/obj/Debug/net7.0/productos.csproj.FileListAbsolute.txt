@@ -13,3 +13,18 @@
 /home/arteN01-043/Desktop/practicaC#/productos/obj/Debug/net7.0/productos.pdb
 /home/arteN01-043/Desktop/practicaC#/productos/obj/Debug/net7.0/productos.genruntimeconfig.cache
 /home/arteN01-043/Desktop/practicaC#/productos/obj/Debug/net7.0/ref/productos.dll
+C:\Users\Anderson Cespedes\Documents\c#\practicasC-\productos\obj\Debug\net7.0\productos.csproj.AssemblyReference.cache
+C:\Users\Anderson Cespedes\Documents\c#\practicasC-\productos\obj\Debug\net7.0\productos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anderson Cespedes\Documents\c#\practicasC-\productos\obj\Debug\net7.0\productos.AssemblyInfoInputs.cache
+C:\Users\Anderson Cespedes\Documents\c#\practicasC-\productos\obj\Debug\net7.0\productos.AssemblyInfo.cs
+C:\Users\Anderson Cespedes\Documents\c#\practicasC-\productos\obj\Debug\net7.0\productos.csproj.CoreCompileInputs.cache
+C:\Users\Anderson Cespedes\Documents\c#\practicasC-\productos\obj\Debug\net7.0\productos.dll
+C:\Users\Anderson Cespedes\Documents\c#\practicasC-\productos\obj\Debug\net7.0\refint\productos.dll
+C:\Users\Anderson Cespedes\Documents\c#\practicasC-\productos\obj\Debug\net7.0\productos.pdb
+C:\Users\Anderson Cespedes\Documents\c#\practicasC-\productos\bin\Debug\net7.0\productos.exe
+C:\Users\Anderson Cespedes\Documents\c#\practicasC-\productos\bin\Debug\net7.0\productos.deps.json
+C:\Users\Anderson Cespedes\Documents\c#\practicasC-\productos\bin\Debug\net7.0\productos.runtimeconfig.json
+C:\Users\Anderson Cespedes\Documents\c#\practicasC-\productos\bin\Debug\net7.0\productos.dll
+C:\Users\Anderson Cespedes\Documents\c#\practicasC-\productos\bin\Debug\net7.0\productos.pdb
+C:\Users\Anderson Cespedes\Documents\c#\practicasC-\productos\obj\Debug\net7.0\productos.genruntimeconfig.cache
+C:\Users\Anderson Cespedes\Documents\c#\practicasC-\productos\obj\Debug\net7.0\ref\productos.dll
