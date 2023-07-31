@@ -39,10 +39,10 @@ namespace ProductosController
                 con.Open();
                 string sql = "INSERT INTO products(name_pro,code_pro, quanty, marca) VALUES(@name_pro, @code_pro, @quanty, @marca);";
                 using MySqlCommand consult = new MySqlCommand(sql, con);
-                consult.Parameters.AddWithValue("@name_pro", "pendejo");
-                consult.Parameters.AddWithValue("@code_pro", "pendejo");
-                consult.Parameters.AddWithValue("@quanty", 100);
-                consult.Parameters.AddWithValue("@marca", "pendejo");
+                consult.Parameters.AddWithValue("@name_pro", Console.ReadLine());
+                consult.Parameters.AddWithValue("@code_pro", Console.ReadLine());
+                consult.Parameters.AddWithValue("@quanty", int.Parse(Console.ReadLine()));
+                consult.Parameters.AddWithValue("@marca", Console.ReadLine());
                 consult.ExecuteNonQuery();
 
             }catch(Exception err){
