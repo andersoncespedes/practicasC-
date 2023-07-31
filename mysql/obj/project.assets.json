@@ -1778,19 +1778,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Anderson Cespedes\\.nuget\\packages\\": {}
+    "/home/arteN01-043/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anderson Cespedes\\Documents\\c#\\practicasC-\\mysql\\mysql.csproj",
+      "projectUniqueName": "/home/arteN01-043/Desktop/practicasC-/mysql/mysql.csproj",
       "projectName": "mysql",
-      "projectPath": "C:\\Users\\Anderson Cespedes\\Documents\\c#\\practicasC-\\mysql\\mysql.csproj",
-      "packagesPath": "C:\\Users\\Anderson Cespedes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anderson Cespedes\\Documents\\c#\\practicasC-\\mysql\\obj\\",
+      "projectPath": "/home/arteN01-043/Desktop/practicasC-/mysql/mysql.csproj",
+      "packagesPath": "/home/arteN01-043/.nuget/packages/",
+      "outputPath": "/home/arteN01-043/Desktop/practicasC-/mysql/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Anderson Cespedes\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/arteN01-043/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -1835,7 +1835,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
       }
     }
   }

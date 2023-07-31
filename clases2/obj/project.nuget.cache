@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6hkyatmi142rA3ri2duOYqlSf67qyrUFKfB5zGaq3slm+R9r56vLgQq85XLw74FBtK++DKlWL7I8oby+beJwBw==",
+  "dgSpecHash": "pZVaBY1oOMjAdbUwc6OcxXaheeL4ME4S4CH1YbZGM6C45Z/nQq/OLX8t7XEJ94uYGtwIuJ9DOEXgosNSI57OAQ==",
   "success": true,
-  "projectFilePath": "/home/arteN01-043/Desktop/practicaC#/clases2/clases2.csproj",
+  "projectFilePath": "/home/arteN01-043/Desktop/practicasC-/clases2/clases2.csproj",
   "expectedPackageFiles": [
     "/home/arteN01-043/.nuget/packages/microsoft.ml/2.0.1/microsoft.ml.2.0.1.nupkg.sha512",
     "/home/arteN01-043/.nuget/packages/microsoft.ml.cpumath/2.0.1/microsoft.ml.cpumath.2.0.1.nupkg.sha512",
