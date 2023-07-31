@@ -13,7 +13,7 @@ namespace ProductosController
             try
             {
                 con.Open();
-                string sql = "SELECT * FROM products a INNER JOIN facturas b ON a.id_prod = b.id_prod;";
+                string sql = "SELECT * FROM products;";
                 using MySqlCommand command = new MySqlCommand(sql, con);
                 using MySqlDataReader reader = command.ExecuteReader();
                 List<string> Nombres = new();
@@ -29,6 +29,24 @@ namespace ProductosController
                 reader.Close();
             }catch(Exception err){
                 Console.WriteLine(err.Message);
+            }finally{
+                con.Close();
+            }
+        }
+        public void Guardar(){
+            MySqlConnection con = this.ConexionMysql();
+            try{
+                con.Open();
+                string sql = "INSERT INTO products(name_pro,code_pro, quanty, marca) VALUES(@name_pro, @code_pro, @quanty, @marca);";
+                using MySqlCommand consult = new MySqlCommand(sql, con);
+                consult.Parameters.AddWithValue("@name_pro", "pendejo");
+                consult.Parameters.AddWithValue("@code_pro", "pendejo");
+                consult.Parameters.AddWithValue("@quanty", 100);
+                consult.Parameters.AddWithValue("@marca", "pendejo");
+                consult.ExecuteNonQuery();
+
+            }catch(Exception err){
+                Console.WriteLine(err);
             }finally{
                 con.Close();
             }

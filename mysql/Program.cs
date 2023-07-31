@@ -7,7 +7,7 @@ namespace Principal{
 
         public static void Main(string[] args){
             Productos productos = new ();
-            productos.Selecionar();
+            productos.Guardar();
         }
     }
 }
