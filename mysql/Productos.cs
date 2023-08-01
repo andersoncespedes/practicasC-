@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
-
+using Servidor;
 using ConexionBD;
 namespace ProductosController
 {
     public class Producto{
-        public string nombre {get; set;}
-        public string telefono {get; set;}
-        public string correo {get; set;}
+        public string? nombre {get; set;}
+        public string? telefono {get; set;}
+        public string? correo {get; set;}
         public Producto(string nombre, string telefono, string correo){
             this.nombre = nombre;
             this.telefono = telefono;
@@ -45,26 +45,20 @@ namespace ProductosController
                 return null;
             }
         }
-        public void Guardar(){
+        public void Guardar(MyData prod){
             MySqlConnection con = this.ConexionMysql();
             try{
                 con.Open();
                 string sql = $"INSERT INTO {table}(nombre,telefono, correo, foto,documento,tipo_documento, tipo_persona) VALUES(@nombre, @telefono, @correo,@foto, @documento, @tipo_documento, @tipo);";
                 using MySqlCommand consult = new MySqlCommand(sql, con);
-                Console.Write("Ingresar Nombre-> ");
-                consult.Parameters.AddWithValue("@nombre", Console.ReadLine());
-                Console.Write("Ingresar Telefono-> ");
-                consult.Parameters.AddWithValue("@telefono", int.Parse(Console.ReadLine()));
-                Console.Write("Ingresar Correo-> ");
-                consult.Parameters.AddWithValue("@correo",Console.ReadLine());
-                Console.Write("Ingresar Direccion de la foto-> ");
-                consult.Parameters.AddWithValue("@foto",Console.ReadLine());
-                Console.Write("Ingresar Documento-> ");
-                consult.Parameters.AddWithValue("@documento", Console.ReadLine());
-                Console.Write("Ingresar Tipo de Documento-> ");
-                consult.Parameters.AddWithValue("@tipo_documento", Console.ReadLine());
-                Console.Write("Ingresar Tipo-> ");
-                consult.Parameters.AddWithValue("@tipo", Console.ReadLine());
+                Console.WriteLine(prod.Nombre);
+                consult.Parameters.AddWithValue("@nombre", prod.Nombre);
+                consult.Parameters.AddWithValue("@correo",prod.Correo);
+                consult.Parameters.AddWithValue("@foto",prod.Foto);
+                consult.Parameters.AddWithValue("@documento",prod.Documento);
+                consult.Parameters.AddWithValue("@telefono",prod.Telefono);
+                consult.Parameters.AddWithValue("@tipo_documento", prod.Tipo_documento);
+                consult.Parameters.AddWithValue("@tipo", prod.Tipo);
                 consult.ExecuteNonQuery();
             }catch(Exception err){
                 Console.WriteLine(err);
