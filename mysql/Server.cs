@@ -28,7 +28,7 @@ namespace Servidor{
         public static void SendResponse(HttpListenerContext context, string responseString, HttpStatusCode statusCode = HttpStatusCode.OK)
         {
             context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
-            context.Response.Headers.Add("Access-Control-Allow-Methods", "GET, POST");
+            context.Response.Headers.Add("Access-Control-Allow-Methods", "POST, PUT, DELETE, OPTIONS");
             context.Response.Headers.Add("Access-Control-Allow-Headers", "Content-Type");
             byte[] buffer = Encoding.UTF8.GetBytes(responseString);
             context.Response.StatusCode = (int)statusCode;
@@ -63,21 +63,23 @@ namespace Servidor{
             using (var reader = new StreamReader(context.Request.InputStream, context.Request.ContentEncoding))
             {
                 string requestBody = reader.ReadToEnd();
-
+                
                 // Aquí puedes procesar los datos recibidos en el cuerpo de la solicitud POST
                 // Por ejemplo, puedes convertir el JSON a un objeto C# utilizando System.Text.Json.JsonSerializer
-                
+                var data = JsonSerializer.Deserialize<MyData>(requestBody);
+                 Console.WriteLine(data.Nombre);
                 // Ejemplo: Convertir el JSON a un objeto C#
                 try
                 {
-                    var data = JsonSerializer.Deserialize<MyData>(requestBody);
+                    
                     // Lógica para procesar 'data' aquí
+                   
                     productos.Guardar(data);
                     // Envía una respuesta al cliente
                     string responseString = "Respuesta para el método POST";
                     SendResponse(context, responseString);
                 }
-                catch (JsonException)
+                catch (Exception)
                 {
                     // Si el JSON enviado no es válido, puedes enviar una respuesta de error
                     SendErrorResponse(context, HttpStatusCode.BadRequest, "Solicitud POST con JSON inválido");
@@ -95,7 +97,6 @@ namespace Servidor{
         public string? Documento { get; set; }
         public string? Tipo_documento { get; set; }
         public string? Telefono { get; set; }
-
         public string? Tipo { get; set; } = "";
         // Agrega otras propiedades según los datos que esperas recibir en el JSON
     }

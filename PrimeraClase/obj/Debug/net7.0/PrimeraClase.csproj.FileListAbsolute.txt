@@ -1,0 +1,15 @@
+/home/arteN01-043/Desktop/practicasC-/PrimeraClase/bin/Debug/net7.0/PrimeraClase
+/home/arteN01-043/Desktop/practicasC-/PrimeraClase/bin/Debug/net7.0/PrimeraClase.deps.json
+/home/arteN01-043/Desktop/practicasC-/PrimeraClase/bin/Debug/net7.0/PrimeraClase.runtimeconfig.json
+/home/arteN01-043/Desktop/practicasC-/PrimeraClase/bin/Debug/net7.0/PrimeraClase.dll
+/home/arteN01-043/Desktop/practicasC-/PrimeraClase/bin/Debug/net7.0/PrimeraClase.pdb
+/home/arteN01-043/Desktop/practicasC-/PrimeraClase/obj/Debug/net7.0/PrimeraClase.csproj.AssemblyReference.cache
+/home/arteN01-043/Desktop/practicasC-/PrimeraClase/obj/Debug/net7.0/PrimeraClase.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-043/Desktop/practicasC-/PrimeraClase/obj/Debug/net7.0/PrimeraClase.AssemblyInfoInputs.cache
+/home/arteN01-043/Desktop/practicasC-/PrimeraClase/obj/Debug/net7.0/PrimeraClase.AssemblyInfo.cs
+/home/arteN01-043/Desktop/practicasC-/PrimeraClase/obj/Debug/net7.0/PrimeraClase.csproj.CoreCompileInputs.cache
+/home/arteN01-043/Desktop/practicasC-/PrimeraClase/obj/Debug/net7.0/PrimeraClase.dll
+/home/arteN01-043/Desktop/practicasC-/PrimeraClase/obj/Debug/net7.0/refint/PrimeraClase.dll
+/home/arteN01-043/Desktop/practicasC-/PrimeraClase/obj/Debug/net7.0/PrimeraClase.pdb
+/home/arteN01-043/Desktop/practicasC-/PrimeraClase/obj/Debug/net7.0/PrimeraClase.genruntimeconfig.cache
+/home/arteN01-043/Desktop/practicasC-/PrimeraClase/obj/Debug/net7.0/ref/PrimeraClase.dll
